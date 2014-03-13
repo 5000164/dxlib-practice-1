@@ -76,8 +76,8 @@ void MainProcess()
 	ClearDrawScreen();
 
 	// 影の表示開始位置
-	text_x = font_size;
-	text_y = font_size + 2;
+	text_x = font_size + shadow_offset_x;
+	text_y = font_size + shadow_offset_y;
 
 	// 影のベースとなる文字列を描画
 	for (int row = 0; row < 5; row++)
