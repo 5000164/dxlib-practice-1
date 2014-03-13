@@ -1,7 +1,7 @@
-#include "Hiroshi.h"
+#include "common_header.h"
 
 // ƒƒCƒ“ˆ—
-void Main()
+void MainProcess()
 {
 	///
 	/// İ’è

@@ -85,11 +85,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DxLibStart.cpp" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="start.cc" />
+    <ClCompile Include="main_process.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Hiroshi.h" />
+    <ClInclude Include="common_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

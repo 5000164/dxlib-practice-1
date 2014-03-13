@@ -1,4 +1,4 @@
-#include "Hiroshi.h"
+#include "common_header.h"
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
@@ -12,7 +12,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	if (DxLib_Init() == -1)	return -1;
 
 	// メイン処理呼び出し
-	Main();
+	MainProcess();
 
 	// DXライブラリ使用終了処理
 	DxLib_End();
