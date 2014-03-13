@@ -82,7 +82,7 @@ void MainProcess()
 	// 影のベースとなる文字列を描画
 	for (int row = 0; row < 5; row++)
 	{
-		DrawString(text_x, text_y + ((font_size * line_height) * row), text[row], shadow_color_dx);
+		DrawString(text_x, (int)(text_y + ((font_size * line_height) * row)), text[row], shadow_color_dx);
 	}
 
 	// ガウスフィルターを施して影にする
@@ -107,7 +107,7 @@ void MainProcess()
 	// 文字列の描画
 	for (int row = 0; row < 5; row++)
 	{
-		DrawString(text_x, text_y + ((font_size * line_height) * row), text[row], font_color_dx);
+		DrawString(text_x, (int)(text_y + ((font_size * line_height) * row)), text[row], font_color_dx);
 	}
 
 
@@ -126,7 +126,7 @@ void MainProcess()
 	// 文字列の描画
 	for (int row = 0; row < 5; row++)
 	{
-		DrawString(text_x, text_y + ((font_size * line_height) * row), text[row], font_color_dx);
+		DrawString(text_x, (int)(text_y + ((font_size * line_height) * row)), text[row], font_color_dx);
 	}
 
 
