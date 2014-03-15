@@ -17,7 +17,7 @@ void MainProcess()
 	int shadow_color[] = { 5, 5, 5 };
 
 	// フォントサイズ
-	int font_size = 18;
+	int font_size = 32;
 
 	// 行の高さ
 	double line_height = 1.73;
@@ -121,7 +121,7 @@ void MainProcess()
 
 	// テキスト表示開始位置
 	text_x = font_size;
-	text_y = 200;
+	text_y = 350;
 
 	// 文字列の描画
 	for (int row = 0; row < 5; row++)
